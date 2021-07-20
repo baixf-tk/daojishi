@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
     <script>
         // 近期考试时间
-        var str = "2021/08/26 09:00:00";
+        var str = "2021/12/25 09:00:00";
         //教资考试时间
         var strq = "2021/10/30 09:00:00";
         //六级时间
@@ -57,7 +57,7 @@
             }
             if (leftTime < 0) {
                 //改提示
-                document.getElementById("yuekao").innerHTML = "开学"
+                document.getElementById("yuekao").innerHTML = "研究生考试"
                 document.getElementById("desc2").innerHTML = "已进行"
                 //运算
                 d = Math.floor(leftTime / 1000 / 60 / 60 / 24);
@@ -578,7 +578,7 @@
     </div><br>
     <!-- 主体部分描述 -->
     <div class="desc">
-        <b><span id="yuekao">开学</span><br>
+        <b><span id="yuekao">研究生考试</span><br>
             <span class="desc2" id="desc2">倒计时</span></b>
 
     </div>
